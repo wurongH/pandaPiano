@@ -1,0 +1,89 @@
+.xcx-add {
+  color: #FFFFFF;
+  background: #0486fe;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.authorization {
+  overflow: hidden;
+  float: left;
+}
+
+.authorization ul {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.authorization ul li {
+  cursor: pointer;
+  float: left;
+  color: #909399;
+  padding: 0 10px;
+  font-size: 16px;
+  line-height: 20px;
+  height: 20px;
+  margin: 26px 0;
+  border-right: 1px solid #909399;
+}
+
+.select {
+  float: right;
+}
+
+.select>div {
+  float: left;
+}
+
+.select .el-button {
+  color: #FFFFFF;
+}
+
+.select .query {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 30px;
+  background-color: rgba(22, 155, 213, 1);
+}
+
+.select .el-input {
+  width: 220px !important;
+}
+
+.el-table {
+  margin-top: 0;
+}
+
+.cell span {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.models {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+  border: 1px solid #dcdfe6;
+}
+
+.el-textarea .el-textarea__inner {
+  height: 170px !important;
+}
+
+.models .header {
+  line-height: 72px;
+  height: 72px;
+  padding: 0 1.5%;
+  box-sizing: border-box;
+  width: 100%;
+  border-bottom: 1px solid #dcdfe6;
+}

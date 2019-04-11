@@ -1,0 +1,10 @@
+#select_box .select_row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#select_box .add_select {
+    padding-left: 33px;
+}
+
+

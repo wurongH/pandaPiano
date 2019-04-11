@@ -1,0 +1,70 @@
+/*登陆*/
+
+#login {
+	text-align: center;
+	color: #2c3e50;
+	width: 100%;
+	height: 100%;
+	background: url(../../static/img/login/login_bg.png) center center no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+#login .logo {
+	/*width: 200px;*/
+	height: 122px;
+	padding: 175px 0 10px 0;
+}
+
+#login .title {
+	font-family: "PingFang-SC-Medium";
+	font-size: 23px;
+	color: #303133;
+	text-align: center;
+}
+
+#login #form {
+	padding-top: 34px;
+}
+
+#login #form .model {
+	position: relative;
+	width: 378px;
+	height: 74px;
+	margin: 0 auto;
+}
+
+#login #form .model img.icon-user {
+	position: absolute;
+	top: 10px;
+	left: 8px;
+	z-index: 99;
+	width: 16px;
+	height: 22px;
+}
+
+#login #form .model img.icon-password {
+	position: absolute;
+	top: 13px;
+	left: 8px;
+	z-index: 99;
+	width: 16px;
+	height: 18px;
+}
+
+#login #form .el-input__inner {
+	background: #ffffff;
+	border: 1px solid #dcdfe6;
+	border-radius: 4px;
+	height: 44px;
+	font-size: 14px;
+}
+
+#login #form .el-button {
+	border-radius: 4px;
+	width: 179px;
+	height: 39px;
+	margin-top: 40px;
+}
+
